@@ -21,7 +21,7 @@ const user_1 = require("./resolvers/user");
 const main = () => __awaiter(void 0, void 0, void 0, function* () {
     const conn = yield typeorm_1.createConnection({
         type: "postgres",
-        host: "db-graphql-turorial.crwzcnxmvnfc.us-west-2.rds.amazonaws.com",
+        host: "db-graphql-turorial.???????.us-west-2.rds.amazonaws.com",
         database: "graphql_tutorial",
         username: "postgres",
         password: "postgres",

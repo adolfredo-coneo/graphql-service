@@ -8,7 +8,7 @@ import { UserResolver } from "./resolvers/user";
 const main = async () => {
   const conn = await createConnection({
     type: "postgres",
-    host: "db-graphql-turorial.crwzcnxmvnfc.us-west-2.rds.amazonaws.com",
+    host: "db-graphql-turorial.???????.us-west-2.rds.amazonaws.com",
     database: "graphql_tutorial",
     username: "postgres",
     password: "postgres",
